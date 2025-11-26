@@ -2,6 +2,8 @@
  Agregar lo correspondiente para que el proceso siguiente permita
  sumar las notas en cada iteración y presentar en la cadena final el
  valor de la suma.
+
+esta resuelto...
  */
 package ejemplos02;
 
@@ -40,7 +42,7 @@ public class Ejemplo03 {
         } while (bandera); // (bandera==true)
         
         cadenaFinal = String.format("%s\n", cadenaFinal);
-        cadenaFinal = String.format("%s\nLa suma es%.2f", cadenaFinal, sumaNotas);
+        cadenaFinal = String.format("%s\nLa suma es: %.2f", cadenaFinal, sumaNotas);
         System.out.printf("Listado de Notas\n%s\n", cadenaFinal);
     }
 }
