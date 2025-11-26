@@ -38,6 +38,6 @@ public class Ejemplo05 {
             contador = contador + 1;
         } while (contador <= potencia);
 
-        System.out.printf("El resultado es:%d\n", resultado);
+        System.out.printf("El resultado es: %d\n", resultado);
     }
 }
